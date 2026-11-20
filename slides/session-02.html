@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Session 2: GitHub as your backend</title>
+<title>Sessão 2: GitHub como seu backend</title>
 <link rel="stylesheet" href="deck.css?v=2026-11-04d">
 </head>
 <body>
@@ -12,17 +12,17 @@
 
   <section class="slide band cover">
     <span class="eyebrow">We're All Software Developers Now · Session 2 of 4</span>
-    <h1 class="hero">GitHub as your backend</h1>
+    <h1 class="hero">GitHub como seu backend</h1>
     <p class="lede">A repo is a project folder that remembers, shows what changed, and can be handed to someone else.</p>
     <p class="meta">60 minutes · 30 teaching · 30 hands-on</p>
   </section>
 
   <section class="slide dense">
     <span class="eyebrow">Today</span>
-    <h2 class="title">Sixty minutes</h2>
+    <h2 class="title">Sessenta minutos</h2>
     <div class="cols agenda-cols">
       <div class="panel">
-        <h3>Teaching · 30 min</h3>
+        <h3>Aula · 30 min</h3>
         <ul class="points">
           <li>Under the hood: the six things Claude does with a repo</li>
           <li>Branches, forks, and pull requests</li>
@@ -34,7 +34,7 @@
         </ul>
       </div>
       <div class="panel good">
-        <h3>Hands-on · 30 min</h3>
+        <h3>Mão na massa · 30 min</h3>
         <ul class="points">
           <li>Fork the starter repo</li>
           <li>Write a CLAUDE.md for one real workflow</li>
@@ -48,14 +48,14 @@
 
   <section class="slide band">
     <span class="eyebrow">Under the hood</span>
-    <h2 class="title" style="font-size:2.6em">You talk to Claude. Claude runs Git.</h2>
+    <h2 class="title" style="font-size:2.6em">Você fala com o Claude. O Claude roda o Git.</h2>
     <p class="lede">You don't need to be a software developer, or type these commands yourself. But knowing what they do, in plain terms, lets you read what Claude is about to do and say no when it's wrong.</p>
     <div class="slide-foot"><span>Session 2 · GitHub as your backend</span><span>Teaching</span></div>
   </section>
 
   <section class="slide dense">
     <span class="eyebrow">Under the hood · six verbs</span>
-    <h2 class="title">What Claude does with a repo, for you</h2>
+    <h2 class="title">O que o Claude faz com um repositório, por você</h2>
     <table class="grid">
       <thead><tr><th>Verb</th><th>Command</th><th>What it does</th></tr></thead>
       <tbody>
@@ -73,7 +73,7 @@
 
   <section class="slide">
     <span class="eyebrow">Branches · one slide</span>
-    <h2 class="title">Your own lane in a shared repo</h2>
+    <h2 class="title">Sua própria pista em um repositório compartilhado</h2>
     <ul class="points">
       <li>A <strong>branch</strong> is a separate line of work inside the same repo</li>
       <li>Make one: <code>git switch -c alex-kim</code> · move between them: <code>git switch alex-kim</code></li>
@@ -85,10 +85,10 @@
 
   <section class="slide">
     <span class="eyebrow">README and CLAUDE.md</span>
-    <h2 class="title">Two files that make a repo explain itself</h2>
+    <h2 class="title">Dois arquivos que fazem um repositório se explicar sozinho</h2>
     <div class="cols">
       <div class="panel">
-        <h3>README.md · for a person</h3>
+        <h3>README.md · para uma pessoa</h3>
         <ul class="points">
           <li>What this is and who it's for</li>
           <li>How to get it and run it</li>
@@ -96,7 +96,7 @@
         </ul>
       </div>
       <div class="panel good">
-        <h3>CLAUDE.md · for Claude</h3>
+        <h3>CLAUDE.md · para o Claude</h3>
         <ul class="points">
           <li>Who it's talking to and how</li>
           <li>The workflow, its inputs and outputs</li>
@@ -110,7 +110,7 @@
 
   <section class="slide dense">
     <span class="eyebrow">Memories vs. context vs. skills</span>
-    <h2 class="title">What Claude knows, and for how long</h2>
+    <h2 class="title">O que o Claude sabe, e por quanto tempo</h2>
     <table class="grid">
       <thead><tr><th>Thing</th><th>What it is</th></tr></thead>
       <tbody>
@@ -126,7 +126,7 @@
 
   <section class="slide">
     <span class="eyebrow">Claude Code vs. Claude Chat/Cowork</span>
-    <h2 class="title">Which one for which job</h2>
+    <h2 class="title">Qual usar para cada tarefa</h2>
     <div class="cols">
       <div class="panel good">
         <h3>Claude Code</h3>
@@ -149,7 +149,7 @@
 
   <section class="slide dense">
     <span class="eyebrow">Scheduled tasks · formerly called routines</span>
-    <h2 class="title">In the cloud, or on your computer</h2>
+    <h2 class="title">Na nuvem, ou no seu computador</h2>
     <table class="grid">
       <thead><tr><th></th><th>Cloud scheduled task (formerly a routine)</th><th>Local scheduled task (Claude Desktop)</th></tr></thead>
       <tbody>
@@ -167,7 +167,7 @@
 
   <section class="slide">
     <span class="eyebrow">.gitignore for raw inputs</span>
-    <h2 class="title">Some files never go to GitHub</h2>
+    <h2 class="title">Alguns arquivos nunca vão para o GitHub</h2>
     <p class="copy">Exports, PDFs, spreadsheets, and your workflow's real data stay on your computer. <code>.gitignore</code> is the list of files Git refuses to commit. This repo's says:</p>
     <div class="callout">
       <span class="tag">.gitignore (excerpt)</span>
@@ -179,7 +179,7 @@
 
   <section class="slide dense">
     <span class="eyebrow">What .gitignore can't catch</span>
-    <h2 class="title">Some data never goes in any repo</h2>
+    <h2 class="title">Alguns dados nunca entram em nenhum repositório</h2>
     <ul class="points">
       <li><strong>Personal information (PII):</strong> names, emails, phone numbers, and addresses of real people</li>
       <li><strong>Secrets:</strong> passwords, API keys, and tokens</li>
@@ -192,7 +192,7 @@
 
   <section class="slide dense">
     <span class="eyebrow">What "public" means</span>
-    <h2 class="title">Anyone on the internet can read this repo</h2>
+    <h2 class="title">Qualquer pessoa na internet pode ler este repositório</h2>
     <ul class="points">
       <li><strong>Public</strong> is a GitHub setting: anyone can read the repo without an account, and that includes your fork, your branch, and your pull request</li>
       <li><strong>Private</strong> is the other setting: only people who are given access can read it</li>
@@ -206,7 +206,7 @@
 
   <section class="slide">
     <span class="eyebrow">Why Artifacts and Projects aren't the source of truth</span>
-    <h2 class="title">Deploy there. Keep it here.</h2>
+    <h2 class="title">Publique lá. Mantenha aqui.</h2>
     <ul class="points">
       <li>No version history, no diff, no merge</li>
       <li>Owner-only editing on skills</li>
@@ -218,7 +218,7 @@
 
   <section class="slide top">
     <span class="eyebrow">Hands-on · 30 minutes</span>
-    <h2 class="title">Your first repo change</h2>
+    <h2 class="title">Sua primeira mudança em um repositório</h2>
     <ol class="steps">
       <li><strong>Fork and download:</strong> <code>gh repo fork fueled-io/os-claude-advanced-training --clone</code></li>
       <li><strong>Go in, make your branch:</strong> <code>cd os-claude-advanced-training</code> · <code>git switch -c alex-kim</code>, with your own name</li>
@@ -233,7 +233,7 @@
 
   <section class="slide band">
     <span class="eyebrow">Before Session 3</span>
-    <h2 class="title">Assignment</h2>
+    <h2 class="title">Tarefa</h2>
     <p class="lede">Move one recurring workflow or daily task into the repo.</p>
     <ul class="points">
       <li>Its inputs go in <code>raw/</code>, off GitHub. Only files the AI policy allows</li>
